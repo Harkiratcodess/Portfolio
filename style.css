@@ -85,7 +85,6 @@ html{
     cursor: pointer;
     transition: background 0.3s ease, color 0.3s ease;
     letter-spacing: 0.2rem;
-    cursor: pointer;
     font-family: 'share tech mono', monospace;
 }
 .cta-btn:hover {
@@ -94,7 +93,6 @@ html{
   outline: 1px solid #fff;
 }
 #hero {
- padding-top: 5.6rem;
   min-height: 100vh;
   padding: 0 6rem; 
   display: flex;
@@ -127,6 +125,9 @@ html{
   display: flex;
   gap: 2rem;
   align-items: center;
+}
+.hero-actions a {
+  opacity: 0;
 }
 .btn-primary {
   padding: 1.4rem 3rem;
@@ -183,4 +184,11 @@ html{
 @keyframes bounce {
   0%, 100% { transform: translateY(0); }
   50%       { transform: translateY(6px); }
+}
+.hero-label,
+.hero-heading span,
+.hero-sub,
+.hero-footer,
+.hero-actions a {
+  opacity: 0;
 }
