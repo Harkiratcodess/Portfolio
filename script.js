@@ -1,14 +1,10 @@
 gsap.registerPlugin(ScrollTrigger)
 
 document.addEventListener("DOMContentLoaded", () => {
-  
-
   document.body.classList.add("no-scroll")
 
   const tl = gsap.timeline({
     onComplete: () => {
-
-    
       const heroTl = gsap.timeline({ 
         delay: 0.3,
         onComplete: () => {
@@ -59,10 +55,9 @@ document.addEventListener("DOMContentLoaded", () => {
     duration: 0.5,
     ease: "power2.out",
   })
-
 })
 
-gsap.fromTo(".section-label",
+gsap.fromTo("#about .section-label",   
   { opacity: 0, x: -20 },
   {
     opacity: 1, x: 0,
@@ -135,6 +130,44 @@ gsap.fromTo(".table-col",
     scrollTrigger: {
       trigger: ".about-table",
       start: "top 90%",
+    }
+  }
+)
+
+gsap.fromTo("#skills .section-label",
+  { opacity: 0, x: -20 },
+  {
+    opacity: 1, x: 0,
+    duration: 0.8,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: "#skills",
+      start: "top 80%",
+    }
+  }
+)
+gsap.fromTo(".skills-title",
+  { opacity: 0, y: 30 },
+  {
+    opacity: 1, y: 0,
+    duration: 0.8,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: ".skills-header",
+      start: "top 80%",
+    }
+  }
+)
+gsap.fromTo(".skill-card",
+  { opacity: 0, y: 30 },
+  {
+    opacity: 1, y: 0,
+    duration: 0.5,
+    stagger: 0.08,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".skills-grid",
+      start: "top 85%",
     }
   }
 )
