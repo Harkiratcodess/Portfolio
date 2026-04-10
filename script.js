@@ -197,3 +197,40 @@ gsap.fromTo(".project-card",
     }
   }
 )
+gsap.from("#statement .statement-label", {
+  scrollTrigger: {
+    trigger: "#statement",
+    start: "top 80%",
+    toggleActions: "play none none none"
+  },
+  y: 30,
+  opacity: 0,
+  duration: 0.6,
+  ease: "power2.out"
+});
+
+gsap.from("#statement .statement-text span", {
+  scrollTrigger: {
+    trigger: "#statement",
+    start: "top 75%",
+    toggleActions: "play none none none"
+  },
+  y: 60,
+  opacity: 0,
+  duration: 0.8,
+  stagger: 0.15,
+  ease: "power3.out"
+});
+
+gsap.from("#statement .statement-sub, #statement .btn-primary", {
+  scrollTrigger: {
+    trigger: "#statement",
+    start: "top 70%",
+    toggleActions: "play none none none"
+  },
+  y: 30,
+  opacity: 0,
+  duration: 0.6,
+  stagger: 0.1,
+  ease: "power2.out"
+});
