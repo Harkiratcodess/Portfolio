@@ -193,3 +193,99 @@ html{
 .hero-actions a {
   opacity: 0;
 }
+#about{
+  padding: 12rem 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+.section-level{
+  font-size: 1.3rem;
+  color: #555;
+  letter-spacing: 0.3em;
+}
+.about-top{
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 8rem;
+  align-items: start;
+}
+.about-title{
+    display: flex;
+    flex-direction: column;
+    font-size: clamp(4rem, 6vw, 7rem);
+    line-height: 1;
+    color: #e8e8e8;
+    letter-spacing: -0.02em;
+    margin-bottom: 4rem;
+}
+.about-numbers{
+  display: flex;
+flex-direction: column;
+gap: 2rem;
+border-top: 1px solid #1e1e1e;
+padding-top: 3rem;
+}
+.about-num{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.num{
+  font-size: 1.1rem;
+  color: #333;
+  letter-spacing: 0.2rem;
+}
+.num-text{
+  font-size: 1.5rem;
+  color: #666;
+  letter-spacing: 0.1rem;
+}
+.about-big-desc{
+  font-size: 1.8rem;
+  color: #888;
+  line-height: 1.5;
+  margin-bottom: 4rem;
+}
+.about-columns{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  border-top: 1px solid #1e1e1e;
+  padding-top: 3rem;
+}
+
+.col-label{
+  font-size: 1rem;
+  color: #444;
+  letter-spacing: 0.3em;
+  margin-bottom: 1.5rem;
+}
+.col-text{
+  font-size: 1.4rem;
+  color: #666;
+  line-height: 1.8;
+}
+.about-table{
+  display: grid;
+grid-template-columns: repeat(4, 1fr);
+border-top: 1px solid #1e1e1e;
+border-left: 1px solid #1e1e1e;
+
+}
+.table-col {
+  padding: 3rem;
+  border-right: 1px solid #1e1e1e;
+  border-bottom: 1px solid #1e1e1e;
+}
+.table-label {
+  font-size: 1rem;
+  color: #444;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+.table-value {
+  font-size: 1.6rem;
+  color: #e8e8e8;
+  letter-spacing: 0.2rem;
+}
