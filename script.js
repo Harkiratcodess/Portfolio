@@ -171,3 +171,29 @@ gsap.fromTo(".skill-card",
     }
   }
 )
+gsap.fromTo("#projects .section-label",
+  { opacity: 0, x: -20 },
+  {
+    opacity: 1, x: 0,
+    duration: 0.8,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: "#projects",
+      start: "top 80%",
+    }
+  }
+)
+
+gsap.fromTo(".project-card",
+  { opacity: 0, y: 60 },
+  {
+    opacity: 1, y: 0,
+    duration: 0.9,
+    stagger: 0.2,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: "#projects",
+      start: "top 75%",
+    }
+  }
+)
