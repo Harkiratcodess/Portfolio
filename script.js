@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   )
   .fromTo(".hero-actions a",
     { opacity: 0, y: 20 },
-    { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, ease: "power2.out" }
+    { opacity: 1, y: 0, duration: 0.5, stagger: 0.15, ease: "power2.out", clearProps: "transform" }
   )
   .fromTo(".hero-footer",
     { opacity: 0 },

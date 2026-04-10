@@ -143,10 +143,11 @@ html{
   background: transparent;
   color: #e8e8e8;
   border: 1px solid #333;
-  transform: translateY(-3px);
+  transform: translateY(-4px);
 }
 
 .btn-ghost {
+  display: inline-block;
   padding: 1.4rem 3rem;
   background: transparent;
   color: #e8e8e8;
@@ -160,7 +161,7 @@ html{
   background: #e8e8e8;
   color: #0a0a0a;
   border: 1px solid transparent;
-  transform: translateY(-3px);
+  transform: translateY(-4px);
 }
 .hero-footer {
   position: absolute;
