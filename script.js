@@ -66,6 +66,7 @@ gsap.fromTo("#about .section-label",
     scrollTrigger: {
       trigger: "#about",
       start: "top 80%",
+       toggleActions: "play none none none"
     }
   }
 )
@@ -79,6 +80,7 @@ gsap.fromTo(".about-title span",
     scrollTrigger: {
       trigger: ".about-title",
       start: "top 80%",
+      toggleActions: "play none none none"
     }
   }
 )
@@ -92,6 +94,7 @@ gsap.fromTo(".about-num",
     scrollTrigger: {
       trigger: ".about-numbers",
       start: "top 85%",
+      toggleActions: "play none none none"
     }
   }
 )
@@ -104,6 +107,7 @@ gsap.fromTo(".about-big-desc",
     scrollTrigger: {
       trigger: ".about-big-desc",
       start: "top 85%",
+      toggleActions: "play none none none"
     }
   }
 )
@@ -117,6 +121,7 @@ gsap.fromTo(".about-col",
     scrollTrigger: {
       trigger: ".about-columns",
       start: "top 85%",
+      toggleActions: "play none none none"
     }
   }
 )
@@ -130,6 +135,7 @@ gsap.fromTo(".table-col",
     scrollTrigger: {
       trigger: ".about-table",
       start: "top 90%",
+      toggleActions: "play none none none"
     }
   }
 )
@@ -143,6 +149,7 @@ gsap.fromTo("#skills .section-label",
     scrollTrigger: {
       trigger: "#skills",
       start: "top 80%",
+      toggleActions: "play none none none"
     }
   }
 )
@@ -155,6 +162,7 @@ gsap.fromTo(".skills-title",
     scrollTrigger: {
       trigger: ".skills-header",
       start: "top 80%",
+      toggleActions: "play none none none"
     }
   }
 )
@@ -168,6 +176,7 @@ gsap.fromTo(".skill-card",
     scrollTrigger: {
       trigger: ".skills-grid",
       start: "top 85%",
+      toggleActions: "play none none none"
     }
   }
 )
@@ -180,6 +189,7 @@ gsap.fromTo("#projects .section-label",
     scrollTrigger: {
       trigger: "#projects",
       start: "top 80%",
+      toggleActions: "play none none none"
     }
   }
 )
@@ -234,3 +244,125 @@ gsap.from("#statement .statement-sub, #statement .btn-primary", {
   stagger: 0.1,
   ease: "power2.out"
 });
+
+gsap.fromTo("#contact .section-label",
+  { opacity: 0, x: -20 },
+  {
+    opacity: 1, x: 0,
+    duration: 0.8,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: "#contact",
+      start: "top 80%",
+      toggleActions: "play none none none"
+    }
+  }
+)
+
+
+gsap.fromTo(".contact-title span",
+  { opacity: 0, y: 40 },
+  {
+    opacity: 1, y: 0,
+    duration: 0.8,
+    stagger: 0.2,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: ".contact-title",
+      start: "top 80%",
+      toggleActions: "play none none none"
+    }
+  }
+)
+
+
+gsap.fromTo(".contact-desc, .contact-email",
+  { opacity: 0, y: 20 },
+  {
+    opacity: 1, y: 0,
+    duration: 0.6,
+    stagger: 0.15,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".contact-desc",
+      start: "top 85%",
+      toggleActions: "play none none none"
+    }
+  }
+)
+
+
+gsap.fromTo(".contact-link",
+  { opacity: 0, x: 30 },
+  {
+    opacity: 1, x: 0,
+    duration: 0.6,
+    stagger: 0.15,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".contact-right",
+      start: "top 85%",
+      toggleActions: "play none none none"
+    }
+  }
+)
+
+gsap.fromTo("#contact .section-label",
+  { opacity: 0, x: -20 },
+  {
+    opacity: 1, x: 0,
+    duration: 0.8,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: "#contact",
+      start: "top 80%",
+      toggleActions: "play none none none"
+    }
+  }
+)
+
+
+gsap.fromTo(".contact-title span",
+  { opacity: 0, y: 40 },
+  {
+    opacity: 1, y: 0,
+    duration: 0.8,
+    stagger: 0.2,
+    ease: "power3.out",
+    scrollTrigger: {
+      trigger: ".contact-title",
+      start: "top 80%",
+      toggleActions: "play none none none"
+    }
+  }
+)
+
+gsap.fromTo(".contact-desc, .contact-email",
+  { opacity: 0, y: 20 },
+  {
+    opacity: 1, y: 0,
+    duration: 0.6,
+    stagger: 0.15,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".contact-desc",
+      start: "top 85%",
+      toggleActions: "play none none none"
+    }
+  }
+)
+
+gsap.fromTo(".contact-link",
+  { opacity: 0, x: 30 },
+  {
+    opacity: 1, x: 0,
+    duration: 0.6,
+    stagger: 0.15,
+    ease: "power2.out",
+    scrollTrigger: {
+      trigger: ".contact-right",
+      start: "top 85%",
+      toggleActions: "play none none none"
+    }
+  }
+)
