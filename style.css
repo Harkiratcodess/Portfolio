@@ -14,6 +14,7 @@ body.no-scroll {
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 #navbar{
     position: fixed;
@@ -89,6 +90,7 @@ html{
     transition: background 0.3s ease, color 0.3s ease;
     letter-spacing: 0.2rem;
     font-family: 'share tech mono', monospace;
+    text-decoration: none;
 }
 .cta-btn:hover {
   background: #0a0a0a;
@@ -529,7 +531,7 @@ transition: all 0.3s ease;
   grid-template-columns: 1fr 1fr;
   gap: 8rem;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   align-items: start;
 }
 #contact .section-label {
