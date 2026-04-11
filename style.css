@@ -202,8 +202,8 @@ html{
   flex-direction: column;
   gap: 8rem;
 }
-.section-level{
-  font-size: 1.3rem;
+.section-label{
+  font-size: 1.8rem;
   color: #555;
   letter-spacing: 0.3em;
 }
@@ -484,8 +484,8 @@ transition: all 0.3s ease;
 }
 
 .statement-label {
-  letter-spacing: 0.2em;
-  font-size: 1.3rem;
+  letter-spacing: 0.3em;
+  font-size: 1.8rem;
   color: #555;
 }
 
