@@ -386,3 +386,17 @@ const observer = new IntersectionObserver((entries) => {
 })
 
 sections.forEach(section => observer.observe(section))
+const hamburger = document.getElementById("hamburger")
+const navLinkss = document.querySelector(".nav-links")
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("open")
+  navLinkss.classList.toggle("open")
+})
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+  link.addEventListener("click", () => {
+    hamburger.classList.remove("open")
+    navLinks.classList.remove("open")
+  })
+})
