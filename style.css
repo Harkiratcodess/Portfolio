@@ -617,3 +617,17 @@ border-top: 1px solid #1e1e1e;
   color: #e8e8e8;
   transform: translate(5px);
 }
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 6rem;
+  border-top: 1px solid #1e1e1e;
+}
+
+.footer-copy,
+.footer-credit {
+  font-size: 1.2rem;
+  color: #444;
+  letter-spacing: 0.1rem;
+}
