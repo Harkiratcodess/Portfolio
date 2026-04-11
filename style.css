@@ -12,6 +12,22 @@ body{
 body.no-scroll {
   overflow: hidden;
 }
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ffffff30;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: #ffffff80;
+}
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
