@@ -537,7 +537,6 @@ transition: all 0.3s ease;
   grid-template-columns: 1fr 1fr;
   gap: 8rem;
   align-items: center;
-  /* min-height: 100vh; */
   align-items: start;
 }
 #contact .section-label {
@@ -639,7 +638,7 @@ border-top: 1px solid #1e1e1e;
   color: #444;
   letter-spacing: 0.1rem;
 }
-/* Hamburger button — hidden on desktop */
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -659,7 +658,6 @@ border-top: 1px solid #1e1e1e;
   transition: all 0.3s ease;
 }
 
-/* Hamburger OPEN state — turns into X */
 .hamburger.open span:nth-child(1) {
   transform: translateY(6px) rotate(45deg);
 }
