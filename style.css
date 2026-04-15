@@ -7,6 +7,7 @@ body{
     background: #0a0a0a;
   color: #fff;
   font-family: 'Share Tech Mono', monospace;
+  overflow-x: hidden;
   
 }
 body.no-scroll {
@@ -31,6 +32,7 @@ body::-webkit-scrollbar-thumb:hover {
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 #navbar{
     position: fixed;
