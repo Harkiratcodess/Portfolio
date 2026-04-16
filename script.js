@@ -127,8 +127,8 @@ gsap.fromTo(".project-card",
 )
 gsap.from("#statement .statement-label", {
   scrollTrigger: {
-    trigger: "#statement",
-    start: "top 80%",
+    trigger: "#statement .statement-label",
+    start: "top 95%",
     toggleActions: "play none none none"
   },
   y: 30,
@@ -139,8 +139,8 @@ gsap.from("#statement .statement-label", {
 
 gsap.from("#statement .statement-text span", {
   scrollTrigger: {
-    trigger: "#statement",
-    start: "top 75%",
+    trigger: "#statement .statement-text",   
+    start: "top 95%",
     toggleActions: "play none none none"
   },
   y: 60,
@@ -152,8 +152,8 @@ gsap.from("#statement .statement-text span", {
 
 gsap.from("#statement .statement-sub, #statement .btn-primary", {
   scrollTrigger: {
-    trigger: "#statement",
-    start: "top 70%",
+    trigger: "#statement .statement-sub",    
+    start: "top 95%",
     toggleActions: "play none none none"
   },
   y: 30,
@@ -171,7 +171,7 @@ gsap.fromTo("#contact .section-label",
     ease: "power2.out",
     scrollTrigger: {
       trigger: "#contact",
-      start: "top 80%",
+      start: "top 85%",
       toggleActions: "play none none none"
     }
   }

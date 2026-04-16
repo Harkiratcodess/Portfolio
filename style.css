@@ -242,6 +242,9 @@ html{
     letter-spacing: -0.02em;
     margin-bottom: 4rem;
 }
+.about-title span {
+  opacity: 0;
+}
 .about-numbers{
   display: flex;
 flex-direction: column;
