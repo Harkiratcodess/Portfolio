@@ -83,9 +83,9 @@ I'm a BCA student with a deep focus on backend systems, database architecture, a
 
 Add your links here:
 
-- **Email** — `your@email.com`
-- **GitHub** — `github.com/yourusername`
-- **LinkedIn** — `linkedin.com/in/yourusername`
+- **Email** — `harkirattcodess@email.com`
+- **GitHub** — `github.com/harkiratcodess`
+- **LinkedIn** — `linkedin.com/in/harkirat-singh`
 
 ---
 
