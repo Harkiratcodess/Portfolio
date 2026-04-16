@@ -539,6 +539,7 @@ transition: all 0.3s ease;
   font-size: 1.4rem;
   text-decoration: none;
   border: 1px solid transparent;
+   transition: all 0.3s ease;
   display: inline-block;
   cursor: pointer;
 }
@@ -546,7 +547,7 @@ transition: all 0.3s ease;
 .btn-statement:hover {
   background: transparent;
   color: #e8e8e8;
-  border: 1px solid #333;
+   border: 1px solid #333;
   transform: translateY(-2px);
 }
 #contact{
